@@ -56,8 +56,30 @@ button:hover {
     background-color: rgb(255, 207, 234);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
+    div{
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 200px;
+        background-color: rgba(255, 255, 255, 0.726);
+        text-align: center;
+        padding: 100px 0px;
+        border-radius: 20px;
+    }
+
+    button {
+        margin-top: 80px;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 40px;
+        padding: 5px 30px;
+        background-color: rgba(255, 255, 255, 0);
+        border-width: 2px;
+        border-radius: 10px;
+    }
+
     h2 {
-        font-size: 19px;
+        font-size: 40px;
     }
 }
